@@ -1,0 +1,4 @@
+1.The relationship between the "Product" and "Product_Category" entities in an Entity Relationship Diagram (ERD) involves linking products to categories. In this context, a product can belong to different categories such as BrandCategory (e.g., Apple, Nokia) and TypeCategory (e.g., Smartphone, Laptop). To establish this relationship effectively, one approach is to create a table structure that allows products to be related to categories or subcategories.
+
+2.To ensure that each product in the "Product" table has a valid category assigned to it, one effective approach is to establish a relationship between the "Product" and "Product_Category" entities. This relationship can be implemented by creating a foreign key in the "Product" table that references the primary key of the "Product_Category" table. By doing so, every product entry in the "Product" table must have a corresponding category entry in the "Product_Category" table, ensuring data integrity and validity
+
